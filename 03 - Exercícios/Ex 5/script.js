@@ -1,0 +1,1 @@
+console.log("Não é um número" * 415);
