@@ -16,10 +16,10 @@ let nota4 = parseFloat(prompt("Digite sua Nota 04: "));
 let media = ((nota1 + nota2 + nota3 + nota4) / 4);
 
 if(media >= 7) {
-    alert(`Aprovado! Nota final: ${media}`);
+    alert(`Aprovado! Nota final: ${media.toFixed(2)}`);
 } else if (media >= 5) {
-    alert(`Recuperação! Nota final: ${media}`);
+    alert(`Recuperação! Nota final: ${media.toFixed(2)}`);
 } else {
-    alert (`Reprovado! Nota final: ${media}`);
+    alert (`Reprovado! Nota final: ${media.toFixed(2)}`);
 }
 
