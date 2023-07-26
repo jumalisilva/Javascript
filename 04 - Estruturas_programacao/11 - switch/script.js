@@ -156,6 +156,3 @@ Se a entrada do usuário não for um número válido, exibir "Entrada inválida"
 // }
 
 //_____________________________________________________________________
-
-
-
