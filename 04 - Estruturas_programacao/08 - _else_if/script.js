@@ -22,4 +22,3 @@ if(media >= 7) {
 } else {
     alert (`Reprovado! Nota final: ${media.toFixed(2)}`);
 }
-

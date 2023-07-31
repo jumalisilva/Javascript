@@ -23,4 +23,3 @@ while (y >= 0) {
     console.log(`A contagem é: ${y}`);
     y -= 5 
 }
-
