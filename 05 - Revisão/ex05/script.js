@@ -6,8 +6,7 @@ Caso a idade seja maior ou igual a 18 mas a pessoa não possui CNH, imprima no c
  
 Caso contrário, ou seja, se a pessoa tiver menos de 18 anos, imprima no console a mensagem "Não pode dirigir".
  
-Certifique-se de que a estrutura condicional esteja completa, com o uso das chaves {} para delimitar o bloco de código a ser executado em caso de cada condição.
-*/
+Certifique-se de que a estrutura condicional esteja completa, com o uso das chaves {} para delimitar o bloco de código a ser executado em caso de cada condição.*/
 
 let idade = 23;
 let cnh = "false"

@@ -4,7 +4,7 @@ Para implementar a verificação de idade, utilize uma estrutura condicional (if
 1. Declarar a variável "idade" com o valor 15.
 2. Verificar se a idade é maior ou igual a 18 utilizando uma estrutura condicional (if statement).
 3. e a idade for maior ou igual a 18, imprimir no console a mensagem "Pode entrar!".
-4. Caso contrário, não imprimir nada. */
+4. Caso contrário, não imprimir nada.*/
 
 let idade = 15;
 
