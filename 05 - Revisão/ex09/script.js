@@ -4,8 +4,8 @@ let num = Number(prompt("Digite um número para verificar se ele é primo:"));
 
 for (let i = 1; i <= num; i++) {
     if (num % i == 0 && num % num == 0) {
-        console.log(i);
+        console.log(`O número ${i} é primo.`);
     } else {
-        
+        console.log(`O número ${i} não é primo.`);
     }
 }
