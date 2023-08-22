@@ -88,14 +88,70 @@
 
 //__________________________________
 
-// Escreva uam função que multiplique três números
+// Escreva uma função que multiplique três números
 
-function multiplicacao(num1, num2, num3) {
-    console.log(`O resultado da multiplicação dos números ${num1} x ${num2} x ${num3} é ${num1 * num2 * num3}.`)
-}
+// function multiplicacao(num1, num2, num3) {
+//     console.log(`O resultado da multiplicação dos números ${num1} x ${num2} x ${num3} é ${num1 * num2 * num3}.`)
+// }
 
-multiplicacao(2, 4, 6);
+// multiplicacao(2, 4, 6);
 
 //_______________________________________________________
 
-// 
+// Aula do dia 21/08/2023
+
+// Função que retorne o tipo de dado digitado:
+
+// function verificaTipoDeDado(dado) {
+//     if (typeof dado === 'string') {
+//         console.log("Este dado é uma string.");
+//     } else if (typeof dado === 'number') {
+//         console.log("Este dado é um número.");
+//     } else if (typeof dado === 'boolean') {
+//         console.log("Este dado é um boolean.");
+//     }
+// }
+
+// verificaTipoDeDado(true);
+// verificaTipoDeDado(23);
+// verificaTipoDeDado("teste");
+
+//_____________________________________________________________
+
+// Função que some dois números:
+
+// function soma(a, b) {
+//     var resultado = a + b;
+//     return resultado; // o return é essencial para que o resultado apareça e não fique como "Undefined"
+// }
+
+// var resultadoDaSoma = soma(3, 5);
+// console.log(resultadoDaSoma);
+
+//___________________________________________________________________________
+
+// Criar uma função que receba dois números no prompt e retorne a multiplicação desses números.
+
+// let a = Number(prompt("Digite o primeiro número:"));
+// let b = Number(prompt("Digite o segundo número:"));
+
+// function multi(a,b) {
+//     var resultado = a * b;
+//     return resultado;
+// }
+
+// var total = multi(a,b);
+// console.log(total);
+
+//______________________________________________
+
+// Escrever uma função que receba 2 números e apresente a potenciação desses números, sendo o primeiro a base e o segundo o expoente, respectivamente.
+
+// function pot(a, b) {
+//     let potencia = Math.pow(a, b);
+//     return potencia;
+// }
+
+// let resultado = pot(2, 3);
+// console.log(resultado);
+
