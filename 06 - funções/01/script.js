@@ -155,3 +155,5 @@
 // let resultado = pot(2, 3);
 // console.log(resultado);
 
+/^\d{3}\.\d{3}\.\d{3}-\d{2}$/.test(cpf) // estrutura cpf
+
